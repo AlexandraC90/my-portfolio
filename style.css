@@ -1,0 +1,141 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial;
+  color:white;
+}
+
+/* BACKGROUND */
+.bg{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  object-fit:cover;
+  z-index:-2;
+}
+
+/* OVERLAY */
+.overlay{
+  position:fixed;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.6);
+  z-index:-1;
+}
+
+/* NAVBAR */
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px;
+  background:rgba(0,0,0,0.5);
+}
+
+.nav-links{
+  display:flex;
+  gap:20px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+}
+
+nav a:visited{
+  color:white;
+}
+
+nav a:hover{
+  color:#3b82f6;
+}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:80px 20px;
+}
+
+.hero img{
+  width:140px;
+  height:180px;
+  object-fit:cover;
+  border-radius:50% / 35%;
+  border:3px solid #3b82f6;
+  margin-bottom:10px;
+}
+
+/* BUTTONS */
+.buttons{
+  margin-bottom:10px;
+}
+
+button{
+  background:#3b82f6;
+  border:none;
+  padding:8px;
+  color:white;
+  cursor:pointer;
+  margin:5px;
+}
+
+/* SECTION */
+.section{
+  background:white;
+  color:black;
+  padding:60px 20px;
+  margin:20px auto;
+  border-radius:10px;
+  max-width:900px;
+}
+
+/* GRID */
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+}
+
+/* CARD (PROJECTS) */
+.card{
+  background:#f3f4f6;
+  padding:20px;
+  border-radius:10px;
+}
+
+/* 🔥 CV CARD (NOU) */
+.cv-card{
+  background:white;
+  color:black;
+  padding:25px;
+  border-radius:10px;
+  max-width:800px;
+  margin:auto;
+  border:1px solid #ddd;
+  line-height:1.6;
+}
+button{
+  background:#3b82f6;
+  border:none;
+  padding:10px;
+  color:white;
+  cursor:pointer;
+  margin-bottom:20px;
+}
+.card{
+  background:#f3f4f6;
+  padding:20px;
+  border-radius:10px;
+  color:black;
+}
+
+.card h3{
+  margin-bottom:10px;
+  color:#3b82f6;
+}
