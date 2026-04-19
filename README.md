@@ -26,4 +26,4 @@ Python-based chatbot prototype designed to provide basic conversational support.
 
 ## Contact
 GitHub: https://github.com/yourusername  
-LinkedIn: https://linkedin.com/in/yourprofile
+LinkedIn: https://www.linkedin.com/in/coteti-alexandra
